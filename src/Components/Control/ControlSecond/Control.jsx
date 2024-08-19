@@ -15,7 +15,7 @@ const ControlSecond = () => {
                     <p className='card_paragraph'>{t("controlSecond.firstCard_paragraph")}</p>
                 </div>
                 <div className="card card_image card_right"> 
-                    <img src={images.control_imageOne}  alt="Delux_building_image" />  
+                    <img src={images.Black_buliding}  alt="Delux_building_image" />  
                 </div>
                 <div className="card">
                 <h2 className='card_title'>{t("controlSecond.secondCard")}</h2>

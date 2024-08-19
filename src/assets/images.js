@@ -1,13 +1,12 @@
 import aboutImage from "../assets/images/deluxe_about_image.png";
-import contact_formImage from "../assets/images/FormImage.jpg";
 import control_imageSecond from "../assets/images/fourthSecImageOne.png"
 import control_imageThird from "../assets/images/fourthSecImageThird.png"
 import control_imageFourth from "../assets/images/fourthSecImageTwo.png"
 import aboutSecond_image from "../assets/images/aboutSecond_image.png"
 import aboutSecond from "../assets/images/aboutSecond.png"
 import aboutSecond_Small_device from "../assets/images/aboutSecond_Small_device.png"
-import control_imageOne from "../assets/images/fourthSecImage.png"
-import control_imageTwo from "../assets/images/fourthSecimage.png"
+import Black_buliding from "../assets/images/blackBuilding.png"
+// import control_imageTwo from "../assets/images/fourthSecimage.png"
 import controlSec_imageSecond from "../assets/images/fourthSecImageThird.png"
 import controlSec_imageThird from "../assets/images/fourthSecImageThird.png"
 import slideOne from '../assets/images/sliderOne.png'
@@ -23,15 +22,14 @@ import blogImageFourth from "../assets/images/blogImageFourth.png"
 import resultLogo from "../assets/images/resultLogo.png"
 export default {
     aboutImage,
-    contact_formImage,
     control_imageSecond,
     control_imageThird,
     control_imageFourth,
     aboutSecond_image,
     aboutSecond,
     aboutSecond_Small_device,
-    control_imageOne,
-    control_imageTwo,
+    Black_buliding,
+    // control_imageTwo,
     controlSec_imageThird,
     controlSec_imageSecond,
     slideOne,
