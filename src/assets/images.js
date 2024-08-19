@@ -1,6 +1,5 @@
 import aboutImage from "../assets/images/deluxe_about_image.png";
 import contact_formImage from "../assets/images/FormImage.jpg";
-import control_imageFirst from "../assets/images/fourthSecImage.png"
 import control_imageSecond from "../assets/images/fourthSecImageOne.png"
 import control_imageThird from "../assets/images/fourthSecImageThird.png"
 import control_imageFourth from "../assets/images/fourthSecImageTwo.png"
@@ -25,7 +24,6 @@ import resultLogo from "../assets/images/resultLogo.png"
 export default {
     aboutImage,
     contact_formImage,
-    control_imageFirst,
     control_imageSecond,
     control_imageThird,
     control_imageFourth,
