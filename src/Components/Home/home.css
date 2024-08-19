@@ -1,0 +1,223 @@
+.HomePage{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../assets/images/mainSecImage.jpg);
+    height: 100vh;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-clip: border-box;
+    background-size: cover;
+}
+
+.homePage_Items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 25rem;
+}
+
+.homePage_title{
+    line-height: 70px;
+    font-size: 5rem;
+    color: #fff;
+    width: 70%;
+    font-weight: 400;
+}
+
+.homePage_paragraph{
+    font-size: 1.25rem;
+    line-height: 28.9px;
+    font-weight: 400;
+    color: #fff;
+    margin-top: 1rem;
+}
+
+.homePage_btn{
+    width: 223px;
+    height: 49px;
+    gap: 10px;
+    padding: 12px 16px;
+    background: #E1AF93;
+    color: #fff;
+    margin: 1rem 0rem;
+}
+
+.right_side_item{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.hompage_slide_btn{
+    color: #fff;
+    background: transparent;
+    width: 70px;
+    height: 70px;
+    outline: none;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.slide_arrow_icon{
+    font-size: 2rem;
+}
+
+.right_side_item_small_device{
+    display: none;
+}
+@media(max-width:768px){
+    .HomePage{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../assets/images/mainSecImage.jpg);
+        height: 100vh;
+    }
+    .homePage_Items{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 18rem;
+        padding-left: 0.5rem;
+    }
+    
+    .homePage_title{
+        font-size: 4rem;
+        width: 70%;
+    }
+    
+    .homePage_paragraph{
+        font-size: 1.25rem;
+    }
+    
+    .homePage_btn{
+        width: 223px;
+        height: 49px;
+        gap: 10px;
+        padding: 12px 16px;
+        margin: 1rem 0rem;
+    }
+    
+    .hompage_slide_btn{
+        width: 70px;
+        height: 70px;
+    }
+    
+    .buttons {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .slide_arrow_icon{
+        font-size: 2rem;
+    }
+}
+
+@media(max-width:600px){
+    .homePage_Items{
+        display: flex;
+        flex-direction: column;
+        align-items: last baseline;
+        padding-top: 30rem;
+    }
+    
+    .homePage_title{
+        font-size: 2.5rem;
+        margin-top: 1rem;
+        width: 100%;
+        line-height: 41px;
+    }
+    
+    .homePage_paragraph{
+        font-size: 1rem;
+        margin-top: 0.5rem;
+    }
+    
+    .homePage_btn{
+        width: 180px;
+    }
+    
+    .hompage_slide_btn{
+        width: 70px;
+        height: 70px;
+    }
+    
+    .buttons {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .slide_arrow_icon{
+        font-size: 2rem;
+    }
+
+    .right_side_item_small_device{
+        display: inline-block;
+    }
+    .small_device_buttons{
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+    }
+    .right_side_item_large_screen{
+        display: none;
+    }
+}
+
+@media(max-width:380px){
+    .homePage_Items{
+        display: flex;
+        flex-direction: column;
+        align-items: last baseline;
+        padding: 18rem 0.5rem;
+    }
+    
+    .homePage_title{
+        font-size: 2rem;
+        margin-top: 1rem;
+        width: 100%;
+        line-height: 41px;
+    }
+    
+    .homePage_paragraph{
+        font-size: 1rem;
+        margin-top: 0.5rem;
+    }
+    
+    .homePage_btn{
+        width: 180px;
+    }
+    
+    .hompage_slide_btn{
+        width: 70px;
+        height: 70px;
+    }
+    
+    .buttons {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .slide_arrow_icon{
+        font-size: 2rem;
+    }
+
+    .right_side_item_small_device{
+        display: inline-block;
+    }
+    .small_device_buttons{
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+    }
+    .right_side_item_large_screen{
+        display: none;
+    }
+}

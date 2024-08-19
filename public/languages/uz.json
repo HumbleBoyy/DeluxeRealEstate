@@ -1,0 +1,125 @@
+{
+    "NavbarMenu":{
+       "services":"Xizmatlar",
+       "about":"Haqimizda",
+       "blog":"Blog",
+       "contact":"Bog'lanish",
+
+       "buy":"Xarid",
+       "rent":"Ijara",
+       "sell":"Sotish", 
+       "propertyValue":"Ko'chmas mulkni baholash"
+    },
+
+    "Home":{
+      "homeText":"Yashash uchun mukammal joy toping",
+      "homeTextParagraph":"Biz bilan yangi kelajak eshiklarini oching",
+      "buttonsText":"Batafsil"
+    },
+
+    "aboutCompany": {
+        "homeText":"RMC DE LUXE kompaniyasi haqida",
+        "aboutParagraph":"Mulklarning keng assortimenti: Biz har qanday ehtiyojni qondirish uchun kvartira va uylardan tijorat binolarigacha bo'lgan turli xil ijara variantlarini taklif qilamiz.",
+        "aboutParagraphSecond":"Ishonchli ijarachilar: barqaror daromadni ta'minlash va xavflarni minimallashtirish uchun ijarachilarni har tomonlama tekshirish va tanlash",
+        "purchase_Sale":"Sotib olish - sotish",
+        "control":"Nazorat"
+    },
+
+    "aboutSecond":{
+      "aboutText":"Dubayda ko'chmas mulk sarmoyasi",
+      "paragraph_one":"Dubaydagi ko'chmas mulk barqaror daromad olish va kapitalni oshirish uchun ajoyib imkoniyatlarni taqdim etadi",
+      "paragraph_two":"Investitsiyalarning to'liq tsikli: bozorni tahlil qilish va ob'ektlarni tanlashdan investitsiyalarni boshqarish va ularni amalga oshirishgacha.",
+      "paragraph_three":"Bizning mutaxassislarimiz yuqori sifatli xizmat va ishonchlilikni ta'minlab, investitsiya jarayonining barcha bosqichlarida sizga yordam beradi.",
+      "paragraph_four":"Bizning xizmatlarimiz investitsiya mulkingizni boshqarish, uning xavfsizligi va barqaror daromadini ta'minlashni o'z ichiga oladi. Biz boshqaruvning barcha jihatlarini, jumladan, ijarachilarni tanlash va tekshirish, texnik xizmat ko'rsatish, moliyaviy hisobot va huquqiy yordam bilan shug'ullanamiz."
+    },
+
+    "control":{
+      "control_text":"Mulkni boshqarish xizmatiga nimalar kiradi",
+      "control_paragraphOne":"Ijarachilarni tekshirish (kredit tarixi, tavsiyalar)",
+      "control_paragraphTwo":"Lizing shartnomalarini tayyorlash va imzolash",
+      "control_paragraphThree":"Ijara yig'ish",
+      "control_paragraphFour":"Ijarachilarning arizalari va shikoyatlarini ko'rib chiqish",
+      "control_paragraphFive":"Ijara shartlariga rioya etilishini nazorat qilish",
+      "control_paragraphSix":"Muntazam texnik xizmat ko'rsatish",
+      "control_paragraphSeven":"Ta'mirlash ishlarini tashkil etish va amalga oshirish",
+      "control_paragraphEight":"Ko'chmas mulkning holatini kuzatish",
+      "control_paragraphNine":"Ishonchli ijarachilarni tanlash"
+    },
+
+    "controlSecond":{
+      "title":"Nima uchun bizni tanlaysiz",
+
+      "firstCard":"Tajriba va professionallik",
+      "firstCard_paragraph":"Mutaxassislarimiz ko'chmas mulkning turli sohalarida ko'p yillik tajribaga ega bo'lib, bu yuqori sifatli xizmatlarni kafolatlaydi",
+
+      "secondCard":"Shaffoflik va ishonch",
+      "secondCard_paragraph":"Barcha operatsiyalar va hisobotlarning to'liq shaffofligini ta'minlash. Ish halollik va ishonch tamoyillariga asoslanadi, bu sharhlar bilan tasdiqlangan",
+
+      "thirdCard":"Yuqori darajadagi xizmat",
+      "thirdCard_paragraph":"Biz har doim sizga yordam berishga tayyormiz",
+
+      "fourthCard":"Shaxsiy yondashuv",
+      "fourthCard_paragraph":"Biz har bir mijozning o'ziga xos ehtiyojlariga moslashtirilgan shaxsiy echimlarni ishlab chiqamiz",
+
+      "fifthCard":"Kompleks xizmat",
+      "fifthCard_paragraph":"Ko'chmas mulkni ijaraga olish, sotib olish va sotish, boshqarish va investitsiyalarni o'z ichiga olgan to'liq xizmatlar.",
+
+      "sliderTitle":"Yangi binolar"
+   },
+
+   "mortgage":{
+    "title":"Ipotekangizni hisoblang",
+    "inputLabelOne":"Ko'chmas mulk qiymati (cu)",
+    "inputOne":"Narxni kiriting",
+
+    "inputLabelTwo":"Dastlabki to'lov (cu)",
+    "inputTwo":"To'lov miqdorini kiriting",
+
+    "inputLabelThree":"Yillardagi muddat",
+    "inputThree":"Belgilangan muddatni kiriting",
+
+    "inputLabelFour":"Taklif (%)",
+    "inputFour":"Tikish miqdorini kiriting",
+
+    "monthly_payment":"Oylik to'lov",
+    "loan_amount":"Kredit miqdori",
+    "interset_rate":"Stavka foizi",
+    "last_payment":"Oxirgi to'lov sanasi",
+
+    "calculate_btn":"Hisoblash"
+  },
+
+  "contact":{
+    "title":"Hali ham savollaringiz bormi? Biz bilan bog'lanish",
+    "fullName":"To'liq ism",
+    "number":"Telefon raqami",
+    "Email":"E-mail",
+    "question":"Sizning savolingiz",
+    "send":"Yuborish"
+  },
+  "blog":{
+    "title":"Blog",
+    "cardOne":"2024 yil uchun ko'chmas mulk bozori tendentsiyalari va prognozlari",
+    "cardTwo":"Ko'chmas mulkka sarmoya kiritish uchun eng yaxshi hududlar",
+    "cardThree":"10 ta yangi turar-joy majmualari",
+    "cardFour":"Hashamatli kvartiralar tobora ommalashib bormoqda",
+    "blog_btn":"Barcha maqolalar"
+  },
+
+  "footer":{
+    "judge":"Baholash",
+    "real_estate":"Ko'chmas mulk",
+    "company":"Kompaniya",
+    "other":"Boshqalar",
+
+    "apartment":"Kvartiralar",
+    "building":"Yangi binolar",
+    "houses":"Uylar va uchastkalar",
+    "comercial":"Tijorat",
+    "call":"Aloqa",
+    "mortgageCalculator":"Ipotekani hisoblash",
+    "famous_dubai":"Dubayda ko'chmas mulk sarmoyasi",
+
+    "formal_word":"2024 © RMC De Luxe ko'chmas mulk MChJ. Barcha huquqlar himoyalangan"
+  }
+}

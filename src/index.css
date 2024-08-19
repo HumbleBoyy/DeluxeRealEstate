@@ -1,0 +1,23 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     scroll-behavior: smooth;
+     font-family: "Jost", sans-serif;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+     --whiteMainColor: "#FFFFFF";
+     --BeigieHundred: "#E1AF93";
+     --BeigieSeventy: "#EAC7B4";
+     --BeigieFourty: "#F3DFD4";
+     --BeigieHundredTwenty: "#B48C76";
+}
+
+.container{
+     max-width: 1280px;
+     margin: 0 auto;
+}

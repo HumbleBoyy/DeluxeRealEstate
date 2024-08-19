@@ -1,0 +1,124 @@
+{
+    "NavbarMenu":{
+       "services":"Services",
+       "about":"About",
+       "blog":"Blog",
+       "contact":"Contact",
+
+       "buy":"Buy",
+       "rent":"Rent",
+       "sell":"Sell", 
+       "propertyValue":"Оценка недвижимости"
+    },
+
+    "Home":{
+      "homeText":"Find the perfect place to live",
+      "homeTextParagraph":"Open the doors to a new future with us",
+      "buttonsText":"More details"
+    },
+
+    "aboutCompany": {
+        "homeText":"About companyRMC DE LUXE",
+        "aboutParagraph":"Wide range of properties: We offer a variety of rental options - from apartments and houses to commercial premises, to suit any need",
+        "aboutParagraphSecond":"Reliable tenants: Conducting thorough screening and selection of tenants to ensure stable income and minimize risks",
+        "purchase_Sale":"Purchase - Sale",
+        "control":"Control"
+    },
+
+    "aboutSecond":{
+      "aboutText":"Real estate investment in Dubai",
+      "paragraph_one":"Real estate in Dubai provides excellent opportunities to receive a stable income and increase capital",
+      "paragraph_two":"Full cycle of investments: From market analysis and selection of objects to investment management and their implementation.",
+      "paragraph_three":"Our experts will help you at all stages of the investment process, providing high quality service and reliability.",
+      "paragraph_four":"Our services include managing your investment property, ensuring its safety and stable income. We handle all aspects of management, including tenant selection and screening, maintenance, financial reporting and legal support."
+    },
+
+    "control":{
+      "control_text":"What is included in the property management service",
+      "control_paragraphOne":"Checking tenants (credit history, recommendations)",
+      "control_paragraphTwo":"Preparation and signing of lease agreements",
+      "control_paragraphThree":"Rent collection",
+      "control_paragraphFour":"Handling tenant requests and complaints",
+      "control_paragraphFive":"Monitoring compliance with rental conditions",
+      "control_paragraphSix":"Regular Maintenance",
+      "control_paragraphSeven":"Organization and implementation of repair work",
+      "control_paragraphEight":"Monitoring the condition of real estate",
+      "control_paragraphNine":"Selection of reliable tenants"
+    },
+
+    "controlSecond":{
+       "title":"Why choose us",
+
+       "firstCard":"Experience and professionalism",
+       "firstCard_paragraph":"Our specialists have many years of experience in various areas of real estate, which guarantees high quality services",
+
+       "secondCard":"Transparency and trust",
+       "secondCard_paragraph":"Ensuring full transparency of all transactions and reporting. The work is based on the principles of honesty and trust, which is confirmed by reviews",
+
+       "thirdCard":"High level of service",
+       "thirdCard_paragraph":"We are always available to help you at any time",
+
+       "fourthCard":"Individual approach",
+       "fourthCard_paragraph":"We develop personalized solutions tailored to each client's unique needs",
+
+       "fifthCard":"Comprehensive service",
+       "fifthCard_paragraph":"A full range of services, including rental, purchase and sale, management and investment in real estate.",
+
+       "sliderTitle":"New buildings"
+    },
+
+    "mortgage":{
+      "title":"Calculate your mortgage",
+      "inputLabelOne":"Real estate value (cu)",
+      "inputOne":"Enter price",
+
+      "inputLabelTwo":"Initial payment (cu)",
+      "inputTwo":"Enter the contribution amount",
+
+      "inputLabelThree":"Duration in years",
+      "inputThree":"Enter deadline",
+
+      "inputLabelFour":"Bid (%)",
+      "inputFour":"Enter your bet amount",
+
+      "monthly_payment":"Monthly payment",
+      "loan_amount":"Loan amount",
+      "interset_rate":"Interest rate",
+      "last_payment":"Last payment date",
+
+      "calculate_btn":"Calculate"
+    },
+    "contact":{
+      "title":"Still have questions? Contact us",
+      "fullName":"Full name",
+      "number":"Phone number",
+      "Email":"E-mail",
+      "question":"Your question",
+      "send":"Send"
+    },
+    "blog":{
+      "title":"Blog",
+      "cardOne":"Real estate market trends and forecasts for 2024",
+      "cardTwo":"The best areas for real estate investment",
+      "cardThree":"Top 10 new residential complexes",
+      "cardFour":"Luxury apartments are becoming increasingly popular",
+      "blog_btn":"All articles"
+    },
+
+    "footer":{
+      "judge":"Rate",
+      "real_estate":"Real Estate",
+      "company":"Compnay",
+      "other":"Other",
+
+      "apartment":"Apartments",
+      "building":"New Buildings",
+      "houses":"Houses and plots",
+      "comercial":"Commercial",
+      "call":"Aloqa",
+      "mortgageCalculator":"Mortgage calculator",
+      "famous_dubai":"Real estate investment in Dubai",
+
+      "formal_word":"2024 © RMC De Luxe real estate LLC. All rights reserved"
+    }
+}
