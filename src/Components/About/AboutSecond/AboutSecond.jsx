@@ -14,7 +14,7 @@ const AboutSecond = () => {
                 <p className='paragraph_text'>{t("aboutSecond.paragraph_two")}</p>
                 <p className='paragraph_text'>{t("aboutSecond.paragraph_three")}</p>
                 <p className='paragraph_text'>{t("aboutSecond.paragraph_four")}</p>
-                <div className="small_screen_devices" data-aos="fade-left">
+                <div className="small_screen_devices" data-aos="flip-down">
                  <img src={images.aboutSecond} alt="Deluxe_building_image" className='small_scren_image'/>
                  <img src={images.aboutSecond_Small_device} alt="Deluxe_building_image" className='small_scren_image'/>
              </div>
