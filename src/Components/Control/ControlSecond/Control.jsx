@@ -22,7 +22,7 @@ const ControlSecond = () => {
                 <p className='card_paragraph'>{t("controlSecond.secondCard_paragraph")}</p>
                 </div>
                 <div className="card card_image"> 
-                    <img src={images.control_imageSecond}  alt="Delux_building_image" />  
+                    <img src={images.control_whitePalace}  alt="Delux_building_image" />  
                 </div>
                 <div className="card">
                 <h2 className='card_title'>{t("controlSecond.thirdCard")}</h2>

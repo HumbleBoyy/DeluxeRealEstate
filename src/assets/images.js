@@ -3,9 +3,9 @@ import aboutSecond_Small_device from "../assets/images/aboutSecond_Small_device.
 import aboutSecond_image from "../assets/images/aboutSecond_image.png"
 import aboutSecond from "../assets/images/aboutSecond.png"
 
-import control_imageSecond from "../assets/images/fourthSecImageOne.png"
-import control_imageThird from "../assets/images/fourthSecImageThird.png"
-import control_imageFourth from "../assets/images/fourthSecImageTwo.png"
+import control_whitePalace from "../assets/images/whitePalace.png"
+import control_imageThird from "../assets/images/kitchen.png"
+import control_imageFourth from "../assets/images/livingRoom.png"
 import Black_buliding from "../assets/images/blackBuilding.png"
 
 import slideOne from '../assets/images/sliderOne.png'
@@ -29,7 +29,7 @@ export default {
     aboutSecond,
     aboutSecond_Small_device,
 
-    control_imageSecond,
+    control_whitePalace,
     control_imageThird,
     control_imageFourth,
     Black_buliding,
