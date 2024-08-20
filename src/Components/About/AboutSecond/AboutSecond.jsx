@@ -8,7 +8,7 @@ const AboutSecond = () => {
       <section className='aboutSecond'>
          <div className="container">
            <div className="about_second_items_cover">
-            <div className="paragraph_text_items" data-aos="fade-right">
+            <div className="paragraph_text_items" data-aos="flip-down">
                 <h2 className='aboutSecond_title'>{t("aboutSecond.aboutText")}</h2>
                 <p className='paragraph_text'>{t("aboutSecond.paragraph_one")}</p>
                 <p className='paragraph_text'>{t("aboutSecond.paragraph_two")}</p>
@@ -21,7 +21,7 @@ const AboutSecond = () => {
                 <a href="#contact"><button className='homePage_btn'>{t("Home.buttonsText")}</button></a>
             </div>
 
-             <div className="about_second_image" data-aos="fade-left">
+             <div className="about_second_image" data-aos="flip-down">
                  <img src={images.aboutSecond_image} alt="Deluxe_building_image" className='large_screen_image'/>
              </div>
             </div>
