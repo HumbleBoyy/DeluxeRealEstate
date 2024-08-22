@@ -12,10 +12,10 @@ const About = () => {
         <div className="container">
           <div className="about_section_items">
              <div className="about_section_text_items">
-             <div className="company_name_text" data-aos="flip-down">
+             <div className="company_name_text" data-aos="fade-up">
                   <h2 className='about_page_left_item_title'>{t("aboutCompany.aboutText")} <br /> <span className='deluxe_text'>RMC DE LUXE</span></h2>
               </div>
-              <div className="parapghraph_links" data-aos="flip-down">
+              <div className="parapghraph_links" data-aos="fade-up">
                     <Tabs>
                       <TabList>
                         <Tab color={"#E1AF93"}><a href="#noinfo" className='tabs_link'>{t("NavbarMenu.rent")}</a></Tab>
@@ -40,7 +40,7 @@ const About = () => {
                     </Tabs>
                </div>
              </div>
-             <div className='about_image' data-aos="flip-down">
+             <div className='about_image' data-aos="fade-up">
                 <img src={images.aboutImage} alt="Deluxe_About_Image" />
               </div>
           </div>

@@ -15,10 +15,10 @@ const Home = () => {
     const {t, i18n} = useTranslation();
     useEffect(() => {
         AOS.init({
-            duration: 2200, // Animation duration in ms
-            offset: 100,    // Offset (in px) from the original trigger point
+            duration: 2200,
+            offset: 100,    
             easing: 'ease', 
-            once: false,// Easing function   // Delay before animation starts
+            once: false,
           });
       }, []);
   return (
@@ -51,16 +51,16 @@ const Home = () => {
       <About/>
 
       {/* Control Component*/}
-      <Control/>
+      {/* <Control/> */}
 
       {/* Contact Component */}
-      <Contact/>
+      {/* <Contact/> */}
 
       {/* Blog Component */}
-      <Blog/>
+      {/* <Blog/> */}
 
       {/* Footer Component */}
-      <Footer/>
+      {/* <Footer/> */}
     </>
   )
 }

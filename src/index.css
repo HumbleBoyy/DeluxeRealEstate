@@ -4,17 +4,23 @@
      box-sizing: border-box;
      scroll-behavior: smooth;
      font-family: "Jost", sans-serif;
+     text-decoration: none;
+     list-style: none;
 }
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+::-webkit-scrollbar {
+	width: 1px;
+}
 
-:root {
-     --whiteMainColor: "#FFFFFF";
-     --BeigieHundred: "#E1AF93";
-     --BeigieSeventy: "#EAC7B4";
-     --BeigieFourty: "#F3DFD4";
-     --BeigieHundredTwenty: "#B48C76";
+::-webkit-scrollbar-track {
+	background: #E1AF93;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #d2d2d2;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #555;
 }
 
 .container{

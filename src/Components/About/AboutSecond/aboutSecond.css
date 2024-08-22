@@ -7,7 +7,7 @@
 .about_second_items_cover{
     display: grid;
     grid-template-columns: 1fr 1fr ; /* 3 equal columns */
-    grid-template-rows: 100px 200px; 
+    grid-template-rows: auto; 
     width: 100%;
     gap: 1rem;
 }
@@ -33,7 +33,9 @@
     display: none;
 }
 
-@media(max-width:786px){
+
+
+@media(max-width:1024px){
     .aboutSecond{
         height: auto;
         padding: 6rem 0.4rem;
@@ -68,7 +70,7 @@
         width: 100%;
     }
 }
-@media(max-width:666px){
+@media(max-width:768px){
 
     .small_scren_image{
         width: 280px;
