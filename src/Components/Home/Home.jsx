@@ -51,7 +51,7 @@ const Home = () => {
       <About/>
 
       {/* Control Component*/}
-      {/* <Control/> */}
+      <Control/>
 
       {/* Contact Component */}
       {/* <Contact/> */}

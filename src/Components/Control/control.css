@@ -1,10 +1,15 @@
 .control{
     height: auto;
-    padding: 6rem 0rem;
+    padding: 6rem 0.5rem;
 }
-
+.control_tables{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-template-rows: auto;
+   margin-top: 2rem;
+}
 .control_table{
-    width: 720px;
+    width: 100%;
     height: 115px;
     border: 1px solid #EAEAEA;
     border-left: none;
@@ -39,25 +44,37 @@
     font-size: 3.5rem;
     line-height: 70px;
 }
-.control_tables{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 2rem;
-}
+
 
 .control_check_icon{
     color: #fff;
+}
+
+@media(max-width:1024px){
+    .control_tables{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+     }
+    
+    .control_paragraph{
+        font-size: 1.35rem;
+        line-height: 34.68px;
+    }
+    
+    .control_sec_title{
+        width: 100%;
+        font-size: 3.5rem;
+        line-height: 70px;
+    }
+    .control_table_left_side{
+        border-left: none;
+    }
 }
 @media(max-width:786px){
     .control_tables{
         display: flex;
         flex-direction: column;
-    }
-    .control_table{
-        width: 650px;
-        display: flex;
-        align-items: center;
     }
     .control_table_left_side{
         border-left: none;
@@ -75,10 +92,6 @@
         display: flex;
         flex-direction: column;
     }
-    .control_table{
-        width: 100%;
-    }
-
     .control_sec_title{
         width: 100%;
         font-size: 3rem;
@@ -100,10 +113,6 @@
 }
 
 @media(max-width:572px){
-    
-    .control_table{
-        width: 450px;
-    }
     .control_sec_title{
         width: 100%;
         font-size: 3rem;
@@ -111,7 +120,6 @@
     }
     .control_paragraph{
         font-size: 1rem;
-        font-weight: 400;
         line-height: 34.68px;
     }
     .control_check_icon{
@@ -125,17 +133,8 @@
 }
 
 @media(max-width:472px){
-    
-    .control_table{
-        width: 400px;
-    }
-    .control_sec_title{
-        font-size: 3rem;
-        line-height: 70px;
-    }
     .control_paragraph{
-        font-size: 1rem;
-        font-weight: 400;
+        font-size: 1.1rem;
         line-height: 34.68px;
     }
     .control_check_icon{
@@ -143,31 +142,25 @@
     }
 
     .control_check_icon_wrapper{
-        width: 25px;
-        height: 25px;
+        width: 30px;
+        height: 30px;
     }
 }
 
 
 @media(max-width:376px){
-    
-    .control_table{
-        width: 100%;
-    }
     .control_sec_title{
         width: 100%;
         font-size: 2rem;
-        line-height: 70px;
+        line-height: 40px;
     }
     .control_paragraph{
-        font-size: 1rem;
-        font-weight: 400;
-        line-height: 34.68px;
+        font-size: 1.1rem;
+        line-height: 22.68px;
     }
     .control_check_icon{
         font-size: 0.7rem;
     }
-
     .control_check_icon_wrapper{
         width: 20px;
         height: 20px;
