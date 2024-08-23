@@ -41,7 +41,7 @@ const Navbar = () => {
              </div>
 
              <ul className='navbarMenu_wrapper navbarMenu_wrapper_main'>
-                <li><a className={"navbar_menu_links"}>
+                <li><a href='#' className={"navbar_menu_links"}>
                 <Menu>
                       <div className='dropdown_icons'>
                             <MenuButton  style={activeLink === 'services' ? {color:'#E1AF93'} : null}
