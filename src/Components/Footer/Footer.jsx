@@ -13,7 +13,7 @@ const Footer = () => {
     <>
       <section className='footer_section'>
         <div className="container">
-            <div className="footer_items" data-aos="flip-up">
+            <div className="footer_items"data-aos="fade-up">
                 <div className="footer_item_top">
                     <NavbarLogo/>
                     <div className="social_media_icons">

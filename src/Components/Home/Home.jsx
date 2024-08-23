@@ -60,7 +60,7 @@ const Home = () => {
       <Blog/>
 
       {/* Footer Component */}
-      {/* <Footer/> */}
+      <Footer/>
     </>
   )
 }
