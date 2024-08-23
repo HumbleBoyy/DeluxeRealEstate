@@ -10,6 +10,7 @@ const Blog = () => {
          <div className="container">
             <h2 className='blog_title'>{t("blog.title")}</h2>
             <div className="blog_items" data-aos="fade-up">
+               
                <div className="blog_item">
                   <div className="image_wrapper">
                      <img src={images.blogImage} alt="Deluxe_blog_image" className='blog_image'/>
@@ -87,7 +88,7 @@ const Blog = () => {
                   </div>
                </div>
             </div>
-            <div className="blog_btn_wrapper">
+            <div className="blog_btn_wrapper" data-aos="fade-up">
               <a href="#contact"><button className='blog_button'>{t("blog.blog_btn")}</button></a>
             </div>
          </div>

@@ -6,16 +6,6 @@ import images from '../../../assets/images';
 import { t } from 'i18next';
 const Slider = () => {
 
-  const settings = {
-    dots: false,
-    infinite: true,
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    autoplay: true,
-    speed: 2000,
-    autoplaySpeed: 2000,
-    cssEase: "linear"
-  };
   return (
     <>
       <section className='sliderPic'>

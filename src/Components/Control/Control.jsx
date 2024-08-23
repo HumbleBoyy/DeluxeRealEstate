@@ -82,8 +82,8 @@ const Control = () => {
 
       <ControlSecond/>
 
-      {/* <Slider/> */}
-      {/* <Mortgage/> */}
+      <Slider/>
+      <Mortgage/>
     </>
   )
 }

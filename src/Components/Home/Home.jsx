@@ -54,10 +54,10 @@ const Home = () => {
       <Control/>
 
       {/* Contact Component */}
-      {/* <Contact/> */}
+      <Contact/>
 
       {/* Blog Component */}
-      {/* <Blog/> */}
+      <Blog/>
 
       {/* Footer Component */}
       {/* <Footer/> */}

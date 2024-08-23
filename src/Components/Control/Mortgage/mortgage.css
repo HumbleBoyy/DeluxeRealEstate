@@ -1,6 +1,6 @@
 .mortgage_section{
     height: auto;
-    padding: 6rem 0rem;
+    padding: 6rem 0.5rem;
 }
 .mortgage_items{
     display: grid;

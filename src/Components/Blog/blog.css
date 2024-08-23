@@ -1,6 +1,6 @@
 .blog{
     height: auto;
-    padding: 6rem 0rem;
+    padding: 6rem 0.5rem;
 }
 
 .blog_title{
@@ -78,13 +78,13 @@
     background: #E1AF93;
     color: #fff;
 }
-@media(max-width:786px){
+@media(max-width:1024px){
     .blog_items{
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-row: 100px 100px;
+        grid-row: auto;
         gap: 0rem;
-        margin: 2rem 1rem;
+        margin: 2rem 0rem;
     }
 
     .article_name{
@@ -101,15 +101,23 @@
         top: -50px;
         right: 0px;
         left: 0px;
-        width: 90%;
+        width: 60%;
     }
 
     .blog_item{
+        display: flex;
+        justify-content: center;
         margin-top: 1rem;
     }
     .blog_title{
         line-height: 70px;
         font-size: 3.5rem;
+        width: 80%;
+    }
+
+    .article_name{
+        font-size: 1.2rem;
+        line-height: 30px;
         width: 50%;
     }
 }

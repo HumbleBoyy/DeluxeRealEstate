@@ -1,6 +1,6 @@
 .sliderPic{
     height: auto;
-    padding: 6rem 0rem;
+    padding: 6rem 0.5rem;
 }
 
 .slider_container{
@@ -31,7 +31,7 @@
     line-height: 70px;
 }
 
-@media(max-width:786px){
+@media(max-width:1024px){
     .slider_container{
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -41,6 +41,8 @@
      }
      .slide_image{
         margin-top: 0.5rem;
+        display: flex;
+        justify-content: center;
      }
 }
 
