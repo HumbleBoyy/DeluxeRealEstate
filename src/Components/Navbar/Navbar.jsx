@@ -96,7 +96,8 @@ const Navbar = () => {
               
               <div className="open_small_device_menu">
               <div className="search_icon circles_icon" onClick={onOpen}><CiSearch className='navbar_icons'/></div>
-              <div className="heart_icon  circles_icon"><CiHeart className='navbar_icons'/></div>
+              <div className="heart_icon  circles_icon">
+                <CiHeart className='navbar_icons'/></div>
               <div className="circle_icon">
                 <IoMdMenu
                 onClick={()=> setToggle(true)}
@@ -113,7 +114,7 @@ const Navbar = () => {
               <div className="small_device_menu_links">
               <div className="close_nav_menu">
               <div className="language_drop_down ">
-             <Menu>
+               <Menu>
               <div className='dropdown_icons'>
               <MenuButton>
                 {currentlanguage.toUpperCase()}
@@ -166,7 +167,7 @@ const Navbar = () => {
                 <li  onClick={()=> setToggle(false)}><a href='#blog' className={"navbar_menu_links"} style={activeLink === 'blog' ? {color:'#E1AF93'} : null} onClick={()=> setActiveLink('blog')}>{t("NavbarMenu.blog")}</a></li>
                 <li  onClick={()=> setToggle(false)}><a href='#contact' className={"navbar_menu_links"}style={activeLink === 'contact' ? {color:'#E1AF93'} : null} onClick={()=> setActiveLink('contact')}>{t("NavbarMenu.contact")}</a></li>
              </ul>
-            </div>
+              </div>
               </>
             )}
             </div>

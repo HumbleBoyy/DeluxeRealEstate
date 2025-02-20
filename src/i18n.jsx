@@ -7,14 +7,14 @@ import uzbekLanguage from '../public/languages/uz.json'
 import englishLanguage from '../public/languages/en.json'
 import russianLanguage from '../public/languages/ru.json'
  
- const language = localStorage.getItem("i18nextLng") || "ru"
+ const language = localStorage.getItem("i18nextLng") || "uz"
  
 i18n
   .use(Backend)
   .use(LanguageDetector)
   .use(initReactI18next)
   .init({
-    fallbackLng: 'ru',
+    fallbackLng: 'uz',
     lng: language,
     debug: true,
 

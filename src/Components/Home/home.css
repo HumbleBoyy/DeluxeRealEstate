@@ -18,8 +18,10 @@
 .homePage_title{
     line-height: 70px;
     font-size: 5rem;
+    display: flex;
+    align-items: center;
     color: #fff;
-    width: 70%;
+    width: 100%;
     font-weight: 400;
 }
 

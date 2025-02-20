@@ -10,6 +10,7 @@ import Control from '../Control/Control'
 import Contact from '../Contact/Contact'
 import Blog from '../Blog/Blog'
 import Footer from '../Footer/Footer'
+import { FaHeart } from 'react-icons/fa'
 
 const Home = () => {
     const {t, i18n} = useTranslation();
